@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe0ae;
+    padding: 20px;
+    height: 1000px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-style: bolder;
+    text-align: center;
+    color: #ff9100;
+}
+
+
+.title .moto {
+    font-size: 1.2em;
+    color: #814914;
+    text-align: center;
+}
+
+.motoo{
+    text-align: center;
+}
+
+header hr {
+    margin: 15px 0;
+    border: 0;
+    height: 2px;
+    background: #e1e1e1;
+}
+
+/* Menu Container */
+
+.menu-item{
+    background-color: #ffcc7a;
+}
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Menu Card */
+.menu-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.menu-card-content {
+    padding: 15px;
+}
+
+.menu-card-content h3 {
+    font-size: 1.3em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.menu-card-content p {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.menu-card-content .price {
+    font-size: 1.1em;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.menu-card-content .btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.menu-card-content .btn:hover {
+    background-color: #1e8449;
+}
+
+/* Keranjang Button */
+.cart-btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto 30px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #fffb00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-btn:hover {
+    background-color: #d68910;
+}
